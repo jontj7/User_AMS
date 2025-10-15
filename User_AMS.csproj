@@ -8,11 +8,13 @@
 
 	<ItemGroup>
 		<!-- EF Core 8 -->
+		<PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.3.0" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
+		<PackageReference Include="Moq" Version="4.20.72" />
 
 		<!-- Proveedor MySQL para EF Core 8 -->
 		<PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.2" />
